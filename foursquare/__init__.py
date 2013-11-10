@@ -46,7 +46,7 @@ NUM_REQUEST_RETRIES = 3
 MAX_MULTI_REQUESTS = 5
 
 # Keyworded Arguments passed to the httplib2.Http() request
-HTTP_KWARGS = {}
+HTTP_KWARGS = {'ca_certs': '/app/taplister/cacerts.txt'}
 
 
 # Generic foursquare exception
